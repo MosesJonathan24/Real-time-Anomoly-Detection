@@ -7,29 +7,6 @@
 
 > **A complete end-to-end MLOps system for real-time anomaly detection using FastAPI, ONNX, Azure ML, AKS, Docker & Kubernetes. Built for scalability, performance, and production-readiness.**
 
-Whether you're a data scientist, ML engineer, or DevOps enthusiast, this repository provides a comprehensive guide to building an industrial-grade AI pipeline — from data ingestion and model training to deployment, monitoring, and optimization. It's designed to empower you with the knowledge and tools to operationalize machine learning effectively.
-
----
-
-## 🎥 Inspired by Our YouTube Tutorials
-
-This repository serves as the foundational codebase for many of our popular YouTube videos, covering a wide range of topics in **MLOps, Azure ML, FastAPI, Docker, Kubernetes (AKS), ONNX, and more**. Each component within this project is meticulously crafted to demonstrate best practices and real-world applications.
-
-[![Build Real Industrial MLOps with Azure ML & AKS](https://img.youtube.com/vi/k_4GLPGVVBw/hqdefault.jpg)](https://www.youtube.com/playlist?list=PL-kVqysGX5170z9hCqpCtQbhwiq3hnn55)
-
-### 📺 Featured Videos
-
-| Title                                                                                                                                 | Description                                                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Azure ML & AKS MLOps Pipeline Full Course 🔥 \| Cloud Machine Learning Masterclass](https://youtu.be/XP62m_jNwgM) | Welcome to the ultimate Azure ML + AKS MLOps Masterclass! 🚀 Whether you're a beginner or seasoned ML engineer, this video walks you through building a full production-ready pipeline using Azure tools. |
-| [Azure ML v2 Key Components Explained – Pipelines, Compute, Assets & More 🚀](https://youtu.be/wq1zuL39KPk)        | Master Azure Machine Learning v2 in just 10 minutes! This comprehensive guide breaks down core components essential for building industrial-grade MLOps pipelines.                                        |
-| [💥 Why 85% of ML Projects FAIL \| Build Real Industrial MLOps with Azure ML](https://youtu.be/k_4GLPGVVBw)        | Discover why most ML projects never reach production and how you can avoid these pitfalls using real-world MLOps strategies on Azure ML.                                                                  |
-| [🏭 Industrial MLOps Stack Setup Guide on Windows 💻 For Beginners & Pros](https://youtu.be/vlxl4iZniCI)           | Ready to build a foundation-grade MLOps environment—on Windows? Learn to level up your dev setup with this full-stack guide.                                                                              |
-| [🚀 Deploy Anomaly Detection with FastAPI & Streamlit! MLOps for Beginners](https://youtu.be/GoqzmrAyMic)          | Turn your ML model into a real-time API with a Streamlit dashboard. In this beginner-friendly tutorial, deploy end-to-end anomaly detection using FastAPI and Streamlit.                                  |
-
-Let me know if you want the real YouTube video IDs inserted into the links.
-> 💡 **Want to explore more? Check out our full playlist on YouTube: [[Deep Knowledge Space]](https://www.youtube.com/playlist?list=PL-kVqysGX5170z9hCqpCtQbhwiq3hnn55)**
-
 ---
 
 ## 🧩 Project Overview
@@ -202,9 +179,6 @@ For full deployment to Azure Kubernetes Service (AKS) via Azure ML, follow the i
 
 ```bash
 az ml online-deployment create -n my-deployment --endpoint my-endpoint --file deployment/endpoint-k8s-config.yml
-```
-
-> 📘 For detailed setup instructions, including Azure infrastructure provisioning and Azure DevOps pipeline configurations, refer to the `/doc` folder or watch our dedicated [Getting Started Video] on YouTube.
 
 ---
 
@@ -252,49 +226,7 @@ Key model artifacts and metadata are stored and managed as follows:
 - **PyTorch Models**: `models/padim_model.pt`
 - **Model Information**: `distributions/model_info.json` (contains metadata about trained models)
 
----
 
-## 🧑‍💻 Want to Contribute?
-
-We welcome contributions from the community! Whether it's bug fixes, new features, documentation improvements, or tutorials — your input is valuable. Please feel free to open an issue or submit a pull request.
-
-### 📝 Contribution Guidelines
-
-1.  Fork the repository.
-2.  Create a new feature branch (`git checkout -b feature/YourFeature`).
-3.  Implement your changes, adding tests where applicable.
-4.  Ensure your code adheres to the project's coding standards.
-5.  Submit a pull request with a clear description of your changes.
-
----
-
-## 📢 Stay Connected
-
-Stay up-to-date with the latest developments, tutorials, and insights from our team:
-
-- 📺 Subscribe to our [https://www.youtube.com/@DeepKnowledgeSpace]
-- 🐦 Follow us on [https://x.com/KnowledgeD76945/]
-- 💼 Connect with us on [https://www.linkedin.com/in/deep-knowledge/]
-
----
-
-## ⭐️ Show Your Support
-
-If you found this project useful or insightful, please consider showing your support:
-
-- 👍 Star the repository on GitHub.
-- 📢 Share it with your colleagues and network.
-- 💬 Leave feedback or suggest new topics for future development.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License – see the `LICENSE` file for details.
-
----
-
-> **Empowering ML Engineers to Deliver Production-Ready AI Systems – One Line at a Time.**
 > Made with ❤️ by the Deep Knowledge
 
 ---
