@@ -226,9 +226,6 @@ Key model artifacts and metadata are stored and managed as follows:
 - **PyTorch Models**: `models/padim_model.pt`
 - **Model Information**: `distributions/model_info.json` (contains metadata about trained models)
 
-
-> Made with ❤️ by the Deep Knowledge
-
 ---
 
 
